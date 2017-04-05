@@ -7,43 +7,22 @@ var SETDEX_SMBSPOT={
         "at": "4",
         "sa": "252"
       },
+      "ivs": {
+        "sp": "0" 
+      },
       "nature": "Quiet",
       "ability": "Snow Warning",
       "item": "Abomasite",
       "moves": [
         "Blizzard",
         "Giga Drain",
-        "Earthquake",
+        "Hidden Power Ground",
         "Ice Shard"
-      ]
-    },
-    "Choice Scarf": {
-      "level": 50,
-      "evs": {
-        "hp": "4",
-        "at": "4",
-        "sd": "4",
-        "sa": "248",
-        "sp": "248"
-      },
-      "ivs": {
-        "df": "30",
-        "sa": "30",
-        "sp": "30"
-      },
-      "nature": "Hasty",
-      "ability": "Snow Warning",
-      "item": "Choice Scarf",
-      "moves": [
-        "Blizzard",
-        "Wood Hammer",
-        "Earthquake",
-        "Hidden Power Fire"
       ]
     }
   },
   "Aegislash": {
-    "THE CRUMBLER (Special Attacker)": {
+    "Special Attacker": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -55,113 +34,38 @@ var SETDEX_SMBSPOT={
       },
       "nature": "Quiet",
       "ability": "Stance Change",
-      "item": "Weakness Policy",
-      "moves": [
-        "Shadow Ball",
-        "Shadow Sneak",
-        "Sacred Sword",
-        "Flash Cannon"
-      ]
-    },
-    "SubToxic": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "sd": "4",
-        "sp": "252"
-      },
-      "nature": "Timid",
-      "ability": "Stance Change",
       "item": "Leftovers",
       "moves": [
-        "Substitute",
-        "Toxic",
         "Shadow Ball",
-        "Flash Cannon"
-      ]
-    },
-    "Physical Attacker": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "at": "252",
-        "sd": "4"
-      },
-      "ivs": {
-        "sp": "0"
-      },
-      "nature": "Brave",
-      "ability": "Stance Change",
-      "item": "Life Orb",
-      "moves": [
+        "Flash Cannon",
         "Shadow Sneak",
-        "Sacred Sword",
-        "Iron Head",
-        "Shadow Claw"
-      ]
-    },
-    "DragonWhale's SubToxic": {
-      "level": 50,
-      "evs": {
-        "hp": "224",
-        "sa": "156",
-        "sd": "36",
-        "sp": "92"
-      },
-      "nature": "Modest",
-      "ability": "Stance Change",
-      "item": "Leftovers",
-      "moves": [
-        "Substitute",
-        "Toxic",
-        "Shadow Ball",
-        "Flash Cannon"
-      ]
-    },
-    "The Ethan Special (PhysDef)": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "at": "4",
-        "df": "252"
-      },
-      "ivs": {
-        "sp": "0"
-      },
-      "nature": "Relaxed",
-      "ability": "Stance Change",
-      "item": "Weakness Policy",
-      "moves": [
-        "King's Shield",
-        "Shadow Ball",
-        "Shadow Sneak",
-        "Sacred Sword"
-      ]
-    }
-  },
-  "Alakazam": {
-    "Bulky MegaZam": {
-      "level": 50,
-      "evs": {
-        "hp": "100",
-        "df": "244",
-        "sa": "12",
-        "sd": "12",
-        "sp": "140"
-      },
-      "nature": "Timid",
-      "ability": "Magic Guard",
-      "item": "Alakazite",
-      "moves": [
-        "Psychic",
-        "Focus Blast",
-        "Shadow Ball",
         "Hidden Power Ice"
       ]
     }
   },
+  "Amoonguss": {
+    "Payapa": {
+      "level": 50,
+      "evs": {
+        "hp": "252",
+        "df": "188",
+        "sa": "4",
+        "sd": "60",
+        "sp": "4"
+      },
+      "nature": "Bold",
+      "ability": "Regenerator",
+      "item": "Payapa Berry",
+      "moves": [
+        "Sludge Bomb",
+        "Energy Ball",
+        "Giga Drain",
+        "Foul Play"
+      ]
+    }
+  },
   "Araquanid": {
-    "Assault Vest": {
+    "Waterium-Liquidation": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -170,7 +74,7 @@ var SETDEX_SMBSPOT={
       },
       "nature": "Adamant",
       "ability": "Water Bubble",
-      "item": "Assault Vest",
+      "item": "Waterium Z",
       "moves": [
         "Liquidation",
         "Leech Life",
@@ -180,23 +84,6 @@ var SETDEX_SMBSPOT={
     }
   },
   "Arcanine": {
-    "Physically Defensive": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "df": "252",
-        "sd": "4"
-      },
-      "nature": "Bold",
-      "ability": "Intimidate",
-      "item": "Leftovers",
-      "moves": [
-        "Flamethrower",
-        "Snarl",
-        "Burn Up",
-        "Morning Sun"
-      ]
-    },
     "Physical Inferno Overdrive": {
       "level": 50,
       "evs": {
@@ -212,46 +99,6 @@ var SETDEX_SMBSPOT={
         "Wild Charge",
         "Extreme Speed",
         "Close Combat"
-      ]
-    }
-  },
-  "Articuno": {
-    "Theorymon's Sheer Cold Fisher": {
-      "level": 50,
-      "evs": {
-        "hp": "220",
-        "df": "4",
-        "sa": "4",
-        "sd": "252",
-        "sp": "28"
-      },
-      "nature": "Calm",
-      "ability": "Pressure",
-      "item": "Leftovers",
-      "moves": [
-        "Sheer Cold",
-        "Substitute",
-        "Roost",
-        "Freeze-Dry"
-      ]
-    },
-    "Assault Vest": {
-      "level": 50,
-      "evs": {
-        "hp": "108",
-        "df": "4",
-        "sa": "252",
-        "sd": "4",
-        "sp": "140"
-      },
-      "nature": "Modest",
-      "ability": "Pressure",
-      "item": "Assault Vest",
-      "moves": [
-        "Sheer Cold",
-        "Freeze-Dry",
-        "Hurricane",
-        "Ice Shard"
       ]
     }
   },
@@ -275,60 +122,23 @@ var SETDEX_SMBSPOT={
         "Superpower"
       ]
     },
-    "All Out Attcker": {
+    "Assault Vest": {
       "level": 50,
       "evs": {
-        "hp": "228",
+        "hp": "252",
         "at": "252",
-        "df": "12",
-        "sd": "12",
-        "sp": "4"
+        "sd": "4",
       },
-      "nature": "Adamant",
+      "ivs": {
+        "sp": "18"
+      },
+      "nature": "Brave",
       "ability": "Huge Power",
       "item": "Assault Vest",
       "moves": [
         "Aqua Jet",
         "Play Rough",
         "Waterfall",
-        "Knock Off"
-      ]
-    },
-    "Choice Band": {
-      "level": 50,
-      "evs": {
-        "hp": "228",
-        "at": "252",
-        "df": "12",
-        "sd": "12",
-        "sp": "4"
-      },
-      "nature": "Adamant",
-      "ability": "Huge Power",
-      "item": "Choice Band",
-      "moves": [
-        "Aqua Jet",
-        "Play Rough",
-        "Waterfall",
-        "Superpower"
-      ]
-    }
-  },
-  "Beedrill": {
-    "Offensive Pivot": {
-      "level": 50,
-      "evs": {
-        "at": "228",
-        "df": "36",
-        "sp": "244"
-      },
-      "nature": "Jolly",
-      "ability": "Swarm",
-      "item": "Beedrillite",
-      "moves": [
-        "U-turn",
-        "Poison Jab",
-        "Drill Run",
         "Knock Off"
       ]
     }
@@ -353,7 +163,7 @@ var SETDEX_SMBSPOT={
     }
   },
   "Blastoise": {
-    "Wallbreaker": {
+    "Mega": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -364,7 +174,7 @@ var SETDEX_SMBSPOT={
       "ability": "Torrent",
       "item": "Blastoisinite",
       "moves": [
-        "Water Pulse",
+        "Water Spout",
         "Aura Sphere",
         "Ice Beam",
         "Dark Pulse"
@@ -376,12 +186,8 @@ var SETDEX_SMBSPOT={
       "level": 50,
       "evs": {
         "at": "52",
-        "sa": "244",
-        "sp": "212"
-      },
-      "ivs": {
-        "hp": "30",
-        "df": "30"
+        "sa": "204",
+        "sp": "252"
       },
       "nature": "Naive",
       "ability": "Speed Boost",
@@ -390,41 +196,7 @@ var SETDEX_SMBSPOT={
         "Overheat",
         "Hidden Power Ice",
         "Superpower",
-        "High Jump Kick"
-      ]
-    },
-    "Physical Attacker": {
-      "level": 50,
-      "evs": {
-        "at": "252",
-        "sd": "4",
-        "sp": "252"
-      },
-      "nature": "Adamant",
-      "ability": "Speed Boost",
-      "item": "Life Orb",
-      "moves": [
-        "Flare Blitz",
-        "Superpower",
-        "Stone Edge",
-        "Knock Off"
-      ]
-    },
-    "Baton Pass": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "df": "4",
-        "sp": "252"
-      },
-      "nature": "Impish",
-      "ability": "Speed Boost",
-      "item": "",
-      "moves": [
-        "Protect",
-        "Swords Dance",
-        "Baton Pass",
-        "Blaze Kick"
+        "Rock Slide"
       ]
     }
   },
@@ -444,23 +216,6 @@ var SETDEX_SMBSPOT={
         "Mach Punch",
         "Bullet Seed",
         "Rock Tomb"
-      ]
-    },
-    "Tacticat Teammate": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "at": "4",
-        "df": "252"
-      },
-      "nature": "Impish",
-      "ability": "Poison Heal",
-      "item": "Toxic Orb",
-      "moves": [
-        "Spore",
-        "Focus Punch",
-        "Substitute",
-        "Protect"
       ]
     }
   },
@@ -503,60 +258,6 @@ var SETDEX_SMBSPOT={
         "Earthquake",
         "Ice Punch"
       ]
-    },
-    "Physically Defensive": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "at": "4",
-        "df": "252"
-      },
-      "nature": "Impish",
-      "ability": "Beast Boost",
-      "item": "Rocky Helmet",
-      "moves": [
-        "Leech Life",
-        "Hammer Arm",
-        "Bulk Up",
-        "Roost"
-      ]
-    },
-    "Fast": {
-      "level": 50,
-      "evs": {
-        "hp": "4",
-        "at": "252",
-        "sp": "252"
-      },
-      "nature": "Jolly",
-      "ability": "Beast Boost",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Leech Life",
-        "Superpower",
-        "Ice Punch",
-        "Earthquake"
-      ]
-    },
-    "Trick Room Sweeper": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "at": "252",
-        "df": "4"
-      },
-      "ivs": {
-        "sp": "0"
-      },
-      "nature": "Brave",
-      "ability": "Beast Boost",
-      "item": "Fightinium Z",
-      "moves": [
-        "Hammer Arm",
-        "Leech Life",
-        "Earthquake",
-        "Ice Punch"
-      ]
     }
   },
   "Celesteela": {
@@ -574,7 +275,7 @@ var SETDEX_SMBSPOT={
         "Heavy Slam",
         "Earthquake",
         "Flamethrower",
-        "Leech Seed"
+        "Hidden Power Ice"
       ]
     },
     "SpDef": {
@@ -591,24 +292,7 @@ var SETDEX_SMBSPOT={
         "Heavy Slam",
         "Earthquake",
         "Flamethrower",
-        "Leech Seed"
-      ]
-    },
-    "Fast SubSeed": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "sd": "4",
-        "sp": "252"
-      },
-      "nature": "Jolly",
-      "ability": "Beast Boost",
-      "item": "Leftovers",
-      "moves": [
-        "Heavy Slam",
-        "Earthquake",
-        "Flamethrower",
-        "Leech Seed"
+        "Hidden Power Ice"
       ]
     },
     "Assault Vest": {
@@ -625,23 +309,6 @@ var SETDEX_SMBSPOT={
         "Heavy Slam",
         "Hidden Power Ice",
         "Flamethrower",
-        "Earthquake"
-      ]
-    },
-    "Autotomize": {
-      "level": 50,
-      "evs": {
-        "at": "252",
-        "df": "4",
-        "sp": "252"
-      },
-      "nature": "Jolly",
-      "ability": "Beast Boost",
-      "item": "",
-      "moves": [
-        "Autotomize",
-        "Heavy Slam",
-        "Acrobatics",
         "Earthquake"
       ]
     }
@@ -663,60 +330,9 @@ var SETDEX_SMBSPOT={
         "Shadow Ball",
         "Flamethrower"
       ]
-    },
-    "Minimize": {
-      "level": 50,
-      "evs": {
-        "df": "252",
-        "sd": "4",
-        "sp": "252"
-      },
-      "nature": "Timid",
-      "ability": "",
-      "item": "Eviolite",
-      "moves": [
-        "Seismic Toss",
-        "Ice Beam",
-        "Shadow Ball",
-        "Flamethrower"
-      ]
     }
   },
   "Charizard": {
-    "SD Flame Charge X": {
-      "level": 50,
-      "evs": {
-        "at": "252",
-        "sd": "4",
-        "sp": "252"
-      },
-      "nature": "Adamant",
-      "ability": "Blaze",
-      "item": "Charizardite X",
-      "moves": [
-        "Flame Charge",
-        "Outrage",
-        "Flare Blitz",
-        "Dragon Claw"
-      ]
-    },
-    "Defensive X": {
-      "level": 50,
-      "evs": {
-        "hp": "172",
-        "df": "116",
-        "sp": "220"
-      },
-      "nature": "Jolly",
-      "ability": "Blaze",
-      "item": "Charizardite X",
-      "moves": [
-        "Will-O-Wisp",
-        "Roost",
-        "Flame Charge",
-        "Dragon Claw"
-      ]
-    },
     "Drought Attacker": {
       "level": 50,
       "evs": {
@@ -728,10 +344,10 @@ var SETDEX_SMBSPOT={
       "ability": "Blaze",
       "item": "Charizardite Y",
       "moves": [
-        "Overheat",
+        "Heat Wave",
         "Solar Beam",
-        "Focus Blast",
-        "Hidden Power Ice"
+        "Overheat",
+        "Hidden Power Ground"
       ]
     }
   },
@@ -751,27 +367,6 @@ var SETDEX_SMBSPOT={
         "Stored Power",
         "Fire Blast",
         "Thunderbolt"
-      ]
-    }
-  },
-  "Cloyster": {
-    "Shell Smash": {
-      "level": 50,
-      "evs": {
-        "hp": "108",
-        "at": "252",
-        "df": "4",
-        "sd": "4",
-        "sp": "140"
-      },
-      "nature": "Adamant",
-      "ability": "Skill Link",
-      "item": "King's Rock",
-      "moves": [
-        "Razor Shell",
-        "Icicle Spear",
-        "Rock Blast",
-        "Ice Shard"
       ]
     }
   },
@@ -810,42 +405,6 @@ var SETDEX_SMBSPOT={
         "Psychic",
         "Moonblast",
         "Psyshock"
-      ]
-    }
-  },
-  "Dragonite": {
-    "Dragon Dance": {
-      "level": 50,
-      "evs": {
-        "at": "252",
-        "sd": "4",
-        "sp": "252"
-      },
-      "nature": "Adamant",
-      "ability": "Multiscale",
-      "item": "Lum Berry",
-      "moves": [
-        "Outrage",
-        "Extreme Speed",
-        "Earthquake",
-        "Fire Punch"
-      ]
-    },
-    "Choice Band": {
-      "level": 50,
-      "evs": {
-        "at": "252",
-        "sd": "4",
-        "sp": "252"
-      },
-      "nature": "Adamant",
-      "ability": "Multiscale",
-      "item": "Choice Band",
-      "moves": [
-        "Outrage",
-        "Extreme Speed",
-        "Earthquake",
-        "Thunder Punch"
       ]
     }
   },
@@ -1091,32 +650,17 @@ var SETDEX_SMBSPOT={
         "Poison Jab",
         "Fire Fang"
       ]
-    },
-    "Mixed Life Orb": {
-      "level": 50,
-      "evs": {
-        "hp": "4",
-        "at": "252",
-        "sp": "252"
-      },
-      "nature": "Naive",
-      "ability": "Rough Skin",
-      "item": "Life Orb",
-      "moves": [
-        "Earthquake",
-        "Outrage",
-        "Draco Meteor",
-        "Fire Blast"
-      ]
     }
   },
   "Gengar": {
-    "Bulky Trapper": {
+    "Offensive Trapper": {
       "level": 50,
       "evs": {
-        "hp": "252",
-        "sp": "252",
-        "df": "4"
+        "hp": "20",
+        "df": "28",
+        "sa": "236",
+        "sd": "4",
+        "sp": "220"
       },
       "ivs": {
         "at": "0"
@@ -1125,27 +669,10 @@ var SETDEX_SMBSPOT={
       "ability": "Cursed Body",
       "item": "Gengarite",
       "moves": [
-        "Destiny Bond",
-        "Will-O-Wisp",
-        "Hex",
-        "Sludge Bomb"
-      ]
-    },
-    "Offensive Trapper": {
-      "level": 50,
-      "evs": {
-        "sa": "252",
-        "sd": "4",
-        "sp": "252"
-      },
-      "nature": "Timid",
-      "ability": "Cursed Body",
-      "item": "Gengarite",
-      "moves": [
-        "Destiny Bond",
         "Shadow Ball",
         "Sludge Bomb",
-        "Icy Wind"
+        "Icy Wind",
+        "Hidden Power Ice"
       ]
     },
     "Perish Trapper": {
@@ -1168,25 +695,6 @@ var SETDEX_SMBSPOT={
         "Sludge Bomb"
       ]
     },
-    "CasinoGar (Hypnosis + Hex)": {
-      "level": 50,
-      "evs": {
-        "hp": "188",
-        "df": "116",
-        "sa": "4",
-        "sd": "4",
-        "sp": "196"
-      },
-      "nature": "Timid",
-      "ability": "Cursed Body",
-      "item": "Gengarite",
-      "moves": [
-        "Hypnosis",
-        "Hex",
-        "Focus Blast",
-        "Sludge Bomb"
-      ]
-    },
     "Focus Sash": {
       "level": 50,
       "evs": {
@@ -1203,84 +711,10 @@ var SETDEX_SMBSPOT={
         "Focus Blast",
         "Icy Wind"
       ]
-    },
-    "SubDisable": {
-      "level": 50,
-      "evs": {
-        "sa": "252",
-        "sd": "4",
-        "sp": "252"
-      },
-      "nature": "Timid",
-      "ability": "Cursed Body",
-      "item": "Black Sludge",
-      "moves": [
-        "Substitute",
-        "Disable",
-        "Shadow Ball",
-        "Focus Blast"
-      ]
-    },
-  },
-  "Glalie": {
-    "Moody": {
-      "level": 50,
-      "evs": {
-        "hp": "172",
-        "sd": "84",
-        "sp": "252"
-      },
-      "nature": "Timid",
-      "ability": "Moody",
-      "item": "Leftovers",
-      "moves": [
-        "Frost Breath",
-        "Freeze-Dry",
-        "Sheer Cold",
-        "Substitute"
-      ]
-    }
-  },
-  "Gliscor": {
-    "Poison Healer": {
-      "level": 50,
-      "evs": {
-        "hp": "228",
-        "df": "68",
-        "sp": "212"
-      },
-      "nature": "Impish",
-      "ability": "Poison Heal",
-      "item": "Toxic Orb",
-      "moves": [
-        "Protect",
-        "Substitute",
-        "Earthquake",
-        "Guillotine"
-      ]
-    }
-  },
-  "Golisopod": {
-    "Assault Vest": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "at": "252",
-        "df": "4"
-      },
-      "nature": "Adamant",
-      "ability": "Emergency Exit",
-      "item": "Assault Vest",
-      "moves": [
-        "First Impression",
-        "Liquidation",
-        "Aqua Jet",
-        "Sucker Punch"
-      ]
     }
   },
   "Greninja": {
-    "Mixed Life Orb": {
+    "Life Orb Blizzard": {
       "level": 50,
       "evs": {
         "at": "20",
@@ -1291,44 +725,10 @@ var SETDEX_SMBSPOT={
       "ability": "Protean",
       "item": "Life Orb",
       "moves": [
-        "Ice Beam",
-        "Dark Pulse",
+        "Blizzard",
+        "Rock Slide",
         "Gunk Shot",
         "Low Kick"
-      ]
-    },
-    "Physical Attacker": {
-      "level": 50,
-      "evs": {
-        "at": "252",
-        "sa": "4",
-        "sp": "252"
-      },
-      "nature": "Naive",
-      "ability": "Protean",
-      "item": "Life Orb",
-      "moves": [
-        "Low Kick",
-        "Gunk Shot",
-        "Ice Beam",
-        "Dark Pulse"
-      ]
-    },
-    "Focus Sash": {
-      "level": 50,
-      "evs": {
-        "hp": "4",
-        "sa": "252",
-        "sp": "252"
-      },
-      "nature": "Timid",
-      "ability": "Protean",
-      "item": "",
-      "moves": [
-        "Ice Beam",
-        "Dark Pulse",
-        "Hydro Pump",
-        "Extrasensory"
       ]
     }
   },
@@ -1386,57 +786,66 @@ var SETDEX_SMBSPOT={
     }
   },
   "Heatran": {
-    "Fast Stall": {
+    "Fast": {
       "level": 50,
       "evs": {
-        "hp": "212",
-        "sd": "44",
+        "hp": "4",
+        "sd": "252",
         "sp": "252"
+      },
+      "ivs": {
+        "at": "0"
       },
       "nature": "Timid",
       "ability": "Flash Fire",
-      "item": "Leftovers",
+      "item": "Shuca Berry",
       "moves": [
-        "Magmar Storm",
-        "Toxic",
-        "Substitute",
-        "Earth Power"
+        "Heat Wave",
+        "Earth Power",
+        "Overheat",
+        "Hidden Power Ice"
       ]
     },
-    "Bulky Stall": {
+    "Sub": {
       "level": 50,
       "evs": {
-        "hp": "212",
+        "hp": "204",
         "df": "4",
-        "sa": "44",
-        "sd": "156",
-        "sp": "92"
-      },
-      "nature": "Calm",
-      "ability": "Flash Fire",
-      "item": "Leftovers",
-      "moves": [
-        "Magmar Storm",
-        "Toxic",
-        "Substitute",
-        "Earth Power"
-      ]
-    },
-    "Choice Specs": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
         "sa": "252",
-        "sp": "4"
+        "sd": "4",
+        "sp": "44"
+      },
+      "ivs": {
+        "at": "0"
       },
       "nature": "Modest",
       "ability": "Flash Fire",
-      "item": "Choice Specs",
+      "item": "Leftovers",
       "moves": [
-        "Overheat",
-        "Flash Cannon",
+        "Heatwave",
         "Earth Power",
-        "Ancient Power"
+        "Hidden Power Ice",
+        "Flash Cannon"
+      ]
+    },
+    "Bloom Doom": {
+      "level": 50,
+      "evs": {
+        "hp": "172",
+        "sa": "252",
+        "sp": "84"
+      },
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Modest",
+      "ability": "Flash Fire",
+      "item": "Grassium",
+      "moves": [
+        "Heatwave",
+        "Earth Power",
+        "Solar Beam",
+        "Flash Cannon"
       ]
     }
   },
@@ -1444,11 +853,11 @@ var SETDEX_SMBSPOT={
     "Mega Hera": {
       "level": 50,
       "evs": {
-        "hp": "156",
-        "at": "252",
+        "hp": "252",
+        "at": "36",
         "df": "4",
-        "sd": "4",
-        "sp": "92"
+        "sd": "84",
+        "sp": "132"
       },
       "nature": "Adamant",
       "ability": "Guts",
@@ -1461,61 +870,6 @@ var SETDEX_SMBSPOT={
       ]
     }
   },
-  "Hippowdon": {
-    "Rocky Helmet Wall": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "df": "252",
-        "sd": "4"
-      },
-      "nature": "Relaxed",
-      "ability": "Sand Stream",
-      "item": "Rocky Helmet",
-      "moves": [
-        "Slack Off",
-        "Yawn",
-        "Stealth Rock",
-        "Earthquake"
-      ]
-    },
-    "Specially Defensive": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "sd": "252",
-        "df": "4"
-      },
-      "nature": "Sassy",
-      "ability": "Sand Stream",
-      "item": "Sitrus Berry",
-      "moves": [
-        "Slack Off",
-        "Yawn",
-        "Stealth Rock",
-        "Earthquake"
-      ]
-    }
-  },
-  "Houndoom": {
-    "Mega Doom": {
-      "level": 50,
-      "evs": {
-        "sa": "252",
-        "sd": "4",
-        "sp": "252"
-      },
-      "nature": "Timid",
-      "ability": "Flash Fire",
-      "item": "Houndoominite",
-      "moves": [
-        "Nasty Plot",
-        "Dark Pulse",
-        "Fire Blast",
-        "Hidden Power Grass"
-      ]
-    }
-  },
     "Hydreigon": {
     "Choice Specs": {
       "level": 50,
@@ -1523,6 +877,9 @@ var SETDEX_SMBSPOT={
         "sa": "252",
         "sd": "4",
         "sp": "252"
+      },
+      "ivs": {
+        "at": "0"
       },
       "nature": "Modest",
       "ability": "Levitate",
@@ -1541,6 +898,9 @@ var SETDEX_SMBSPOT={
         "sd": "4",
         "sp": "252"
       },
+      "ivs": {
+        "at": "0"
+      },
       "nature": "Timid",
       "ability": "Levitate",
       "item": "Choice Scarf",
@@ -1551,12 +911,15 @@ var SETDEX_SMBSPOT={
         "Dragon Pulse"
       ]
     },
-    "Life Orb": {
+    "Life Orb (Tailwind)": {
       "level": 50,
       "evs": {
         "sa": "252",
         "sd": "4",
         "sp": "252"
+      },
+      "ivs": {
+        "at": "0"
       },
       "nature": "Modest",
       "ability": "Levitate",
@@ -1566,28 +929,6 @@ var SETDEX_SMBSPOT={
         "Dark Pulse",
         "Fire Blast",
         "Earth Power"
-      ]
-    }
-  },
-  "Incineroar": {
-    "Trick Room Sweeper": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "at": "252",
-        "sd": "4"
-      },
-      "ivs": {
-        "sp": "0"
-      },
-      "nature": "Brave",
-      "ability": "Blaze",
-      "item": "Incinium Z",
-      "moves": [
-        "Flare Blitz",
-        "Darkest Lariat",
-        "Cross Chop",
-        "Earthquake"
       ]
     }
   },
@@ -1699,26 +1040,6 @@ var SETDEX_SMBSPOT={
         "Sacred Sword",
         "Night Slash"
       ]
-    },
-    "Gotta Go Fast (and not hit hard)": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "df": "4",
-        "sp": "252"
-      },
-      "ivs": {
-        "at": "21"
-      },
-      "nature": "Timid",
-      "ability": "Beast Boost",
-      "item": "Life Orb",
-      "moves": [
-        "Leaf Blade",
-        "Smart Strike",
-        "Sacred Sword",
-        "Night Slash"
-      ]
     }
   },
   "Kingdra": {
@@ -1741,23 +1062,6 @@ var SETDEX_SMBSPOT={
     }
   },
   "Klefki": {
-    "Standard": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "df": "4",
-        "sd": "252"
-      },
-      "nature": "Calm",
-      "ability": "Prankster",
-      "item": "Leftovers",
-      "moves": [
-        "Swagger",
-        "Foul Play",
-        "Thunder Wave",
-        "Substitute"
-      ]
-    },
     "Dual Screens": {
       "level": 50,
       "evs": {
@@ -1777,23 +1081,6 @@ var SETDEX_SMBSPOT={
     }
   },
   "Kommo-o": {
-    "Dragon Dance": {
-      "level": 50,
-      "evs": {
-        "hp": "4",
-        "at": "252",
-        "sp": "252"
-      },
-      "nature": "Jolly",
-      "ability": "Bullet Proof",
-      "item": "Lum Berry",
-      "moves": [
-        "Dragon Dance",
-        "Outrage",
-        "Sky Uppercut",
-        "Poison Jab"
-      ]
-    },
     "Special Attacker": {
       "level": 50,
       "evs": {
@@ -1816,8 +1103,8 @@ var SETDEX_SMBSPOT={
     "Scarf": {
       "level": 50,
       "evs": {
-        "hp": "4",
         "at": "252",
+        "sd": "4",
         "sp": "252"
       },
       "nature": "Adamant",
@@ -1830,42 +1117,44 @@ var SETDEX_SMBSPOT={
         "Superpower"
       ]
     },
-    "Defensive": {
+    "Assault Vest": {
       "level": 50,
       "evs": {
-        "hp": "252",
-        "at": "4",
-        "df": "252"
+        "hp": "4",
+        "at": "244",
+        "df": "4",
+        "sd": "4",
+        "sp": "252"
       },
-      "nature": "Impish",
+      "nature": "Jolly",
       "ability": "Intimidate",
       "item": "Rocky Helmet",
       "moves": [
         "Earthquake",
-        "Rock Tomb",
+        "Rock Slide",
         "U-Turn",
         "Knock Off"
       ]
-    }
-  },
-  "Lanturn": {
-    "Specially Defensive": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "df": "4",
-        "sd": "252"
-      },
-      "nature": "Careful",
-      "ability": "Volt Absorb",
-      "item": "Leftovers",
-      "moves": [
-        "Scald",
-        "Discharge",
-        "Thunderbolt",
-        "Ice Beam"
-      ]
-    }
+    },
+      "Tectonic Rage": {
+        "level": 50,
+        "evs": {
+          "hp": "44",
+          "at": "212",
+          "df": "12",
+          "sd": "4",
+          "sp": "236"
+        },  
+        "nature": "Adamant",
+        "ability": "Intimidate",     
+        "item": "Groundium Z",
+        "moves": [
+          "Earthquake",
+          "Rock Slide",
+          "U-Turn",
+          "Superpower"
+       ]
+     }
   },
   "Lapras": {
     "infinitymkds' Assault Vest": {
@@ -1881,317 +1170,27 @@ var SETDEX_SMBSPOT={
       "moves": [
         "Sheer Cold",
         "Freeze-Dry",
-        "Surf",
+        "Hydro Pump",
         "Ice Shard"
       ]
     }
   },
-  "Latios": {
-    "Choice Specs": {
-      "level": 50,
-      "evs": {
-        "df": "4",
-        "sa": "252",
-        "sp": "252"
-      },
-      "ivs": {
-        "at": "0"
-      },
-      "nature": "Timid",
-      "ability": "Levitate",
-      "item": "Choice Specs",
-      "moves": [
-        "Draco Meteor",
-        "Psyshock",
-        "Surf",
-        "Thunderbolt"
-      ]
-    }
-  },
-  "Liepard": {
-    "Tacticat": {
-      "level": 50,
-      "evs": {
-        "hp": "44",
-        "df": "212",
-        "sp": "252"
-      },
-      "ivs": {
-        "at": "0"
-      },
-      "nature": "Timid",
-      "ability": "Prankster",
-      "item": "Leftovers",
-      "moves": [
-        "Assist",
-        "Substitute",
-        "Swagger",
-        "Foul Play"
-      ]
-    }
-  },
-  "Lopunny": {
-    "Physical Attacker": {
-      "level": 50,
-      "evs": {
-        "at": "252",
-        "df": "4",
-        "sp": "252"
-      },
-      "nature": "Jolly",
-      "ability": "Limber",
-      "item": "Lopunnite",
-      "moves": [
-        "Fake Out",
-        "Return",
-        "High Jump Kick",
-        "Ice Punch"
-      ]
-    }
-  },
-  "Lucario": {
-    "Physical": {
-      "level": 50,
-      "evs": {
-        "at": "252",
-        "sp": "252",
-        "sd": "4"
-      },
-      "nature": "Jolly",
-      "ability": "Justified",
-      "item": "Lucarionite",
-      "moves": [
-        "Close Combat",
-        "Extreme Speed",
-        "Iron Tail",
-        "Ice Punch"
-      ]
-    },
-    "Special": {
-      "level": 50,
-      "evs": {
-        "sa": "252",
-        "sp": "252",
-        "sd": "4"
-      },
-      "nature": "Timid",
-      "ability": "Inner Focus",
-      "item": "Lucarionite",
-      "moves": [
-        "Aura Sphere",
-        "Flash Cannon",
-        "Vacuum Wave",
-        "Dark Pulse"
-      ]
-    }
-  },
-  "Lycanroc-Day": {
-    "Stealth Rock Lead": {
-      "level": 50,
-      "evs": {
-        "at": "252",
-        "df": "4",
-        "sp": "252"
-      },
-      "nature": "Jolly",
-      "ability": "Keen Eye",
-      "item": "Focus Sash",
-      "moves": [
-        "Accelerock",
-        "Rock Tomb",
-        "Brick Break",
-        "Fire Fang"
-      ]
-    }
-  },
-  "Magneton": {
-    "Fast Celesteela Trapper": {
-      "level": 50,
-      "evs": {
-        "hp": "68",
-        "sa": "252",
-        "sp": "188"
-      },
-      "ivs": {
-        "at": "0"
-      },
-      "nature": "Timid",
-      "ability": "Magnet Pull",
-      "item": "Eviolite",
-      "moves": [
-        "Thunderbolt",
-        "Flash Cannon",
-        "Hidden Power Fire",
-        "Volt Switch"
-      ]
-    }
-  },
-  "Magnezone": {
-    "Assault Vest": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "sa": "252",
-        "sd": "4"
-      },
-      "nature": "Modest",
-      "ability": "Analytic",
-      "item": "Assault Vest",
-      "moves": [
-        "Thunderbolt",
-        "Flash Cannon",
-        "Hidden Power Ice",
-        "Volt Switch"
-      ]
-    },
-    "Bulky Specs": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "sa": "252",
-        "sd": "4"
-      },
-      "nature": "Modest",
-      "ability": "Magnet Pull",
-      "item": "Choice Specs",
-      "moves": [
-        "Thunderbolt",
-        "Flash Cannon",
-        "Hidden Power Ice",
-        "Volt Switch"
-      ]
-    },
-    "Fast Scarf": {
+  "Mamoswine": {
+    "Scarf": {
       "level": 50,
       "evs": {
         "hp": "4",
-        "sa": "252",
+        "at": "252",
         "sp": "252"
       },
-      "ivs": {
-        "at": "0",
-        "df": "30"
-      },
-      "nature": "Timid",
-      "ability": "Magnet Pull",
+      "nature": "Jolly",
+      "ability": "Thick Fat",
       "item": "Choice Scarf",
       "moves": [
-        "Thunderbolt",
-        "Flash Cannon",
-        "Hidden Power Fire",
-        "Volt Switch"
-      ]
-    }
-  },
-  "Mamoswine": {
-    "Sash": {
-      "level": 50,
-      "evs": {
-        "hp": "4",
-        "at": "252",
-        "sp": "252"
-      },
-      "nature": "Jolly",
-      "ability": "Thick Fat",
-      "item": "Focus Sash",
-      "moves": [
         "Earthquake",
-        "Icicle Spear",
-        "Ice Shard",
-        "Knock Off"
-      ]
-    },
-    "Assault Vest": {
-      "level": 50,
-      "evs": {
-        "hp": "44",
-        "at": "212",
-        "sd": "252"
-      },
-      "nature": "Adamant",
-      "ability": "Thick Fat",
-      "item": "Assault Vest",
-      "moves": [
-        "Earthquake",
-        "Icicle Spear",
-        "Ice Shard",
-        "Fissure"
-      ]
-    },
-    "Physically Defensive": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "at": "4",
-        "df": "252"
-      },
-      "nature": "Impish",
-      "ability": "Thick Fat",
-      "item": "Rocky Helmet",
-      "moves": [
-        "Earthquake",
-        "Icicle Spear",
-        "Ice Shard",
-        "Knock Off"
-      ]
-    }
-  },
-  "Mandibuzz": {
-    "Physically Defensive": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "df": "252",
-        "sd": "4"
-      },
-      "nature": "Bold",
-      "ability": "Overcoat",
-      "item": "Leftovers",
-      "moves": [
-        "Foul Play",
-        "Roost",
-        "Taunt",
-        "Toxic"
-      ]
-    },
-    "Specially Defensive": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "df": "4",
-        "sd": "252"
-      },
-      "nature": "Calm",
-      "ability": "Overcoat",
-      "item": "Leftovers",
-      "moves": [
-        "Foul Play",
-        "Roost",
-        "Taunt",
-        "Toxic"
-      ]
-    }
-  },
-  "Manectric": {
-    "All-Out Attacker": {
-      "level": 50,
-      "evs": {
-        "sa": "252",
-        "sd": "4",
-        "sp": "252"
-      },
-      "ivs": {
-        "at": "0",
-        "df": "30"
-      },
-      "nature": "Timid",
-      "ability": "Lightning Rod",
-      "item": "Manectite",
-      "moves": [
-        "Thunderbolt",
-        "Overheat",
-        "Hidden Power Ice",
-        "Volt Switch"
+        "Icicle Crash",
+        "Superpower",
+        "Rock Slide"
       ]
     }
   },
@@ -2213,23 +1212,6 @@ var SETDEX_SMBSPOT={
         "Rock Slide"
       ]
     },
-    "Fast Flame Charge": {
-      "level": 50,
-      "evs": {
-        "hp": "4",
-        "at": "252",
-        "sp": "252"
-      },
-      "nature": "Jolly",
-      "ability": "Lightningrod",
-      "item": "Thick Club",
-      "moves": [
-        "Flare Blitz",
-        "Shadow Bone",
-        "Bonemerang",
-        "Flame Charge"
-      ]
-    },
     "Specially Defensive": {
       "level": 50,
       "evs": {
@@ -2242,9 +1224,9 @@ var SETDEX_SMBSPOT={
       "item": "Thick Club",
       "moves": [
         "Shadow Bone",
-        "Will-O-Wisp",
-        "Rest",
-        "Perish Song"
+        "Fire Punch",
+        "Flare Blitz",
+        "Bonemerang"
       ]
     }
   },
@@ -2262,7 +1244,7 @@ var SETDEX_SMBSPOT={
       "moves": [
         "Play Rough",
         "Sucker Punch",
-        "Knock Off",
+        "Iron Head",
         "Fire Fang"
       ]
     }
@@ -2282,29 +1264,12 @@ var SETDEX_SMBSPOT={
         "Zen Headbutt",
         "Bullet Punch",
         "Ice Punch",
-        "Earthquake"
-      ]
-    },
-    "Substitute + Hone Claws": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "sp": "252",
-        "df": "4"
-      },
-      "nature": "Jolly",
-      "ability": "Clear Body",
-      "item": "Metagrossite",
-      "moves": [
-        "Substitute",
-        "Hone Claws",
-        "Earthquake",
-        "Meteor Mash"
+        "Iron head"
       ]
     }
   },
   "Milotic": {
-    "Wall": {
+    "Competitive": {
       "level": 50,
       "evs": {
         "hp": "252",
@@ -2312,12 +1277,12 @@ var SETDEX_SMBSPOT={
         "sd": "4"
       },
       "nature": "Bold",
-      "ability": "Marvel Scale",
-      "item": "Flame Orb",
+      "ability": "Competitive",
+      "item": "Figy Berry",
       "moves": [
         "Scald",
         "Ice Beam",
-        "Dragon Tail",
+        "Hidden Power Fire",
         "Icy Wind"
       ]
     }
@@ -2359,23 +1324,6 @@ var SETDEX_SMBSPOT={
     }
   },
   "Minior": {
-    "Special Shell Smash": {
-      "level": 50,
-      "evs": {
-        "sa": "252",
-        "sd": "4",
-        "sp": "252"
-      },
-      "nature": "Modest",
-      "ability": "Shields Down",
-      "item": "Focus Sash",
-      "moves": [
-        "Power Gem",
-        "Dazzling Gleam",
-        "Hidden Power Ground",
-        "Charge Beam"
-      ]
-    },
     "Physical Shell Smash": {
       "level": 50,
       "evs": {
@@ -2387,7 +1335,7 @@ var SETDEX_SMBSPOT={
       "ability": "Shields Down",
       "item": "Focus Sash",
       "moves": [
-        "Stone Edge",
+        "Rock Slide",
         "Acrobatics",
         "Earthquake",
         "Explosion"
@@ -2409,7 +1357,7 @@ var SETDEX_SMBSPOT={
         "Earthquake",
         "Heavy Slam",
         "Close Combat",
-        "Rock Tomb"
+        "High Horsepower"
       ]
     }
   },
@@ -2462,14 +1410,14 @@ var SETDEX_SMBSPOT={
       "item": "Focus Sash",
       "moves": [
         "Power Gem",
-        "Sludge Wave",
+        "Sludge Bomb",
         "Hidden Power Ice",
         "Thunderbolt"
       ]
     }
   },
   "Ninetales-Alola": {
-    "Offensive Veil Setter": {
+    "Aurora Veil": {
       "level": 50,
       "evs": {
         "hp": "4",
@@ -2488,26 +1436,26 @@ var SETDEX_SMBSPOT={
     }
   },
   "Pelipper": {
-    "Rain Birb": {
+    "Drizzle": {
       "level": 50,
       "evs": {
-        "hp": "252",
-        "df": "4",
-        "sa": "252"
+        "hp": "4",
+        "sa": "252",
+        "sp": "252"
       },
       "nature": "Modest",
       "ability": "Drizzle",
       "item": "Focus Sash",
       "moves": [
         "Hurricane",
-        "Ice Beam",
-        "Hydro Pump",
+        "Brine",
+        "Scald",
         "U-turn"
       ]
     }
   },
   "Pheromosa": {
-    "Standard Offensive": {
+    "Physical Offensive": {
       "level": 50,
       "evs": {
         "at": "252",
@@ -2533,7 +1481,7 @@ var SETDEX_SMBSPOT={
       },
       "nature": "Modest",
       "ability": "Beast Boost",
-      "item": "Focus Sash",
+      "item": "Fightium Z",
       "moves": [
         "Bug Buzz",
         "Ice Beam",
@@ -2543,7 +1491,7 @@ var SETDEX_SMBSPOT={
     }
   },
   "Pidgeot": {
-    "Specially Offensive": {
+    "Hurricane": {
       "level": 50,
       "evs": {
         "sa": "252",
@@ -2551,8 +1499,7 @@ var SETDEX_SMBSPOT={
         "sp": "252"
       },
       "ivs": {
-        "at": "0",
-        "df": "30"
+        "at": "0"
       },
       "nature": "Timid",
       "ability": "Big Pecks",
@@ -2573,12 +1520,15 @@ var SETDEX_SMBSPOT={
         "sa": "252",
         "sp": "252"
       },
+      "ivs": {
+        "at": "0"
+      },
       "nature": "Timid",
       "ability": "Adaptability",
       "item": "Normalium Z",
       "moves": [
         "Shadow Ball",
-        "Conversion",
+        "Hyper Beam",
         "Thunderbolt",
         "Ice Beam"
       ]
@@ -2593,6 +1543,9 @@ var SETDEX_SMBSPOT={
         "sa": "4",
         "sd": "4",
         "sp": "4"
+      },
+      "ivs": {
+        "at": "0"
       },
       "nature": "Bold",
       "ability": "Trace",
@@ -2613,6 +1566,9 @@ var SETDEX_SMBSPOT={
         "sd": "244",
         "sp": "4"
       },
+      "ivs": {
+        "at": "0"
+      },
       "nature": "Calm",
       "ability": "Trace",
       "item": "Eviolite",
@@ -2623,23 +1579,6 @@ var SETDEX_SMBSPOT={
         "Shadow Ball"
       ]
     },
-    "Offensive Download": {
-      "level": 50,
-      "evs": {
-        "hp": "244",
-        "df": "12",
-        "sa": "252"
-      },
-      "nature": "Modest",
-      "ability": "Download",
-      "item": "Eviolite",
-      "moves": [
-        "Ice Beam",
-        "Shadow Ball",
-        "Tri Attack",
-        "Hidden Power Ground"
-      ]
-    },
     "Trick Room": {
       "level": 50,
       "evs": {
@@ -2648,6 +1587,7 @@ var SETDEX_SMBSPOT={
         "sa": "252"
       },
       "ivs": {
+        "at": "0",
         "sp": "0"
       },
       "nature": "Quiet",
@@ -2658,25 +1598,6 @@ var SETDEX_SMBSPOT={
         "Ice Beam",
         "Tri Attack",
         "Hidden Power Ground"
-      ]
-    },
-    "Mixed": {
-      "level": 50,
-      "evs": {
-        "hp": "244",
-        "at": "4",
-        "df": "12",
-        "sa": "4",
-        "sd": "244"
-      },
-      "nature": "Sassy",
-      "ability": "Download",
-      "item": "Eviolite",
-      "moves": [
-        "Return",
-        "Ice Beam",
-        "Facade",
-        "Thunderbolt"
       ]
     }
   },
@@ -2695,7 +1616,7 @@ var SETDEX_SMBSPOT={
         "Sparkling Aria",
         "Moonblast",
         "Ice Beam",
-        "Energy Ball"
+        "Oceanic Operatta"
       ]
     }
   },
@@ -2747,7 +1668,6 @@ var SETDEX_SMBSPOT={
       },
       "ivs": {
         "at": "0",
-        "df": "30"
       },
       "nature": "Timid",
       "ability": "Pressure",
@@ -2757,27 +1677,6 @@ var SETDEX_SMBSPOT={
         "Hidden Power Ice",
         "Volt Switch",
         "Shadow Ball"
-      ]
-    },
-    "Substitute + Calm Mind": {
-      "level": 50,
-      "evs": {
-        "sa": "252",
-        "sd": "12",
-        "sp": "244"
-      },
-      "ivs": {
-        "at": "0",
-        "df": "30"
-      },
-      "nature": "Timid",
-      "ability": "Pressure",
-      "item": "Leftovers",
-      "moves": [
-        "Thunderbolt",
-        "Hidden Power Ice",
-        "Substitute",
-        "Calm Mind"
       ]
     }
   },
@@ -2834,7 +1733,6 @@ var SETDEX_SMBSPOT={
       },
       "ivs": {
         "at": "0",
-        "df": "30",
       },
       "nature": "Calm",
       "ability": "Levitate",
@@ -2855,7 +1753,6 @@ var SETDEX_SMBSPOT={
       },
       "ivs": {
         "at": "0",
-        "df": "30",
       },
       "nature": "Modest",
       "ability": "Levitate",
@@ -2871,13 +1768,13 @@ var SETDEX_SMBSPOT={
       "level": 50,
       "evs": {
         "hp": "76",
-        "df": "24",
+        "df": "20",
         "sa": "188",
+        "sd": "4",
         "sp": "220"
       },
       "ivs": {
         "at": "0",
-        "df": "30",
       },
       "nature": "Timid",
       "ability": "Levitate",
@@ -2887,23 +1784,6 @@ var SETDEX_SMBSPOT={
         "Overheat",
         "Hidden Power Ice",
         "Thunderbolt"
-      ]
-    },
-    "Substitute": {
-      "level": 50,
-      "evs": {
-        "hp": "156",
-        "sd": "220",
-        "sp": "132"
-      },
-      "nature": "Calm",
-      "ability": "Levitate",
-      "item": "Leftovers",
-      "moves": [
-        "Substitute",
-        "Overheat",
-        "Will-O-Wisp",
-        "Discharge"
       ]
     }
   },
@@ -3016,7 +1896,7 @@ var SETDEX_SMBSPOT={
       "moves": [
         "Double-Edge",
         "Earthquake",
-        "Facade",
+        "Return",
         "Stone Edge"
       ]
     },
@@ -3027,7 +1907,7 @@ var SETDEX_SMBSPOT={
         "sa": "252",
         "sp": "252"
       },
-      "nature": "Rash",
+      "nature": "Naive",
       "ability": "Intimidate",
       "item": "Salamencite",
       "moves": [
@@ -3035,42 +1915,6 @@ var SETDEX_SMBSPOT={
         "Fire Blast",
         "Double-Edge",
         "Hyper Voice"
-      ]
-    },
-    "SpD Facade": {
-      "level": 50,
-      "evs": {
-        "hp": "244",
-        "at": "4",
-        "df": "4",
-        "sd": "228",
-        "sp": "28"
-      },
-      "nature": "Careful",
-      "ability": "Intimidate",
-      "item": "Salamencite",
-      "moves": [
-        "Dragon Dance",
-        "Facade",
-        "Earthquake",
-        "Roost"
-      ]
-    },
-    "Toxicmence": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "at": "4",
-        "sp": "252"
-      },
-      "nature": "Jolly",
-      "ability": "Intimidate",
-      "item": "Salamencite",
-      "moves": [
-        "Toxic",
-        "Substitute",
-        "Roost",
-        "Return"
       ]
     }
   },
@@ -3087,14 +1931,14 @@ var SETDEX_SMBSPOT={
       "item": "Focus Sash",
       "moves": [
         "Fire Blast",
-        "Sludge Wave",
+        "Sludge Bomb",
         "Hidden Power Ice",
-        "Toxic"
+        "Fake Out"
       ]
     }
   },
   "Sandslash-Alola": {
-    "Hail Sweeper": {
+    "Slush Rush": {
       "level": 50,
       "evs": {
         "hp": "4",
@@ -3103,7 +1947,7 @@ var SETDEX_SMBSPOT={
       },
       "nature": "Adamant",
       "ability": "Slush Rush",
-      "item": "Life Orb",
+      "item": "Groundium Z",
       "moves": [
         "Swords Dance",
         "Iron Head",
@@ -3113,34 +1957,15 @@ var SETDEX_SMBSPOT={
     }
   },
   "Serperior": {
-    "Solid Snake": {
-      "level": 50,
-      "evs": {
-        "hp": "116",
-        "df": "220",
-        "sp": "172"
-      },
-      "nature": "Timid",
-      "ability": "Contrary",
-      "item": "Rocky Helmet",
-      "moves": [
-        "Leaf Storm",
-        "Reflect",
-        "Synthesis",
-        "Glare"
-      ]
-    },
     "All-Out Attacker": {
       "level": 50,
       "evs": {
-        "sa": "248",
-        "sd": "12",
-        "sp": "248"
+        "sa": "252",
+        "sd": "4",
+        "sp": "252"
       },
       "ivs": {
         "at": "0",
-        "sa": "30",
-        "sp": "30"
       },
       "nature": "Timid",
       "ability": "",
@@ -3700,6 +2525,9 @@ var SETDEX_SMBSPOT={
         "sa": "252",
         "sp": "252"
       },
+      "ivs": {
+        "at": "0"
+      },
       "nature": "Modest",
       "ability": "Psychic Surge",
       "item": "Choice Specs",
@@ -3709,7 +2537,28 @@ var SETDEX_SMBSPOT={
         "Shadow Ball",
         "Hidden Power Fire"
       ]
-    }
+    },
+    "Bulky Attacker": {
+      "level": 50,
+      "evs": {
+        "hp": "236",
+        "df": "204",
+        "sa": "4",
+        "sd": "4",
+        "sp": "60"
+      },
+      "ivs": {
+        "at": "0"
+      },
+      "nature": "Modest",
+      "ability": "Psychic Surge",
+      "item": "Figy Berry",
+      "moves": [
+        "Psyschic",
+        "Moonblast",
+        "Dazzling Gleam",
+        "Hidden Power Ground"
+      ]
   },
   "Thundurus": {
     "Attacker": {
@@ -3721,7 +2570,6 @@ var SETDEX_SMBSPOT={
       },
       "ivs": {
         "at": "0",
-        "df": "30"
       },
       "nature": "Timid",
       "ability": "Prankster",
@@ -3903,23 +2751,6 @@ var SETDEX_SMBSPOT={
         "Rock Tomb"
       ]
     },
-    "Defensive Sand Setter": {
-      "level": 50,
-      "evs": {
-        "hp": "252",
-        "df": "252",
-        "sd": "4"
-      },
-      "nature": "Bold",
-      "ability": "Sand Stream",
-      "item": "Smooth Rock",
-      "moves": [
-        "Ice Beam",
-        "Foul Play",
-        "Fire Blast",
-        "Thunderbolt"
-      ]
-    },
     "Dragon Dance": {
       "level": 50,
       "evs": {
@@ -3931,10 +2762,10 @@ var SETDEX_SMBSPOT={
       "ability": "Sand Stream",
       "item": "Lum Berry",
       "moves": [
-        "Stone Edge",
+        "Rock Slide",
         "Crunch",
         "Ice Punch",
-        "Earthquake"
+        "Superpower"
       ]
     }
   },
@@ -4008,7 +2839,7 @@ var SETDEX_SMBSPOT={
         "Fire Blast",
         "Bug Buzz",
         "Hidden Power Ice",
-        "Giga Drain"
+        "Heat Wave"
       ]
     }
   },
@@ -4103,42 +2934,27 @@ var SETDEX_SMBSPOT={
         "Energy Ball",
         "Volt Switch"
       ]
-    },
-    "Z-Rain Dance [ability is drizzle for rain]": {
-      "level": 50,
-      "evs": {
-        "sa": "252",
-        "sd": "4",
-        "sp": "252"
-      },
-      "nature": "Modest",
-      "ability": "Drizzle",
-      "item": "Waterium Z",
-      "moves": [
-        "Thunder",
-        "Hidden Power Water",
-        "Dazzling Gleam",
-        "Rain Dance"
-      ]
     }
   },
   "Zapdos": {
-    "Defensive": {
+    "Tailwind": {
       "level": 50,
       "evs": {
         "hp": "252",
-        "df": "252",
-        "sa": "4"
+        "df": "44",
+        "sa": "140",
+        "sd": "36",
+        "sp": "36"
       },
       "ivs": {
-        "sp": "30"
+        "at": "0"
       },
-      "nature": "Bold",
-      "ability": "Pressure",
-      "item": "Leftovers",
+      "nature": "Modest",
+      "ability": "Static",
+      "item": "Psychic Seed",
       "moves": [
-        "Roost",
-        "Discharge",
+        "Thunderbolt",
+        "Volt Switch",
         "Heat Wave",
         "Hidden Power Ice"
       ]
